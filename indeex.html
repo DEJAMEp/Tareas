@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="indeex.css">
+    <title>Mini Proyecto 1 - Parte 2</title>
+</head>
+<body>
+    <section id="1" style="background-color: #ffc153;">
+    <div class="jumbotron">
+        <h1 class="display-4">Hola a Todos!</h1>
+        <p class="lead">Esto es una pequeña pagina web de un proyecto de matea</p>
+        <p class="lead">
+         <a href="#1"><button style="color: #eb6b56;">Vamos A la Pagina</button></a>
+        </p>
+      </div>
+    <header class="row">
+    <h1 class="col-12 col-md-6">Matea</h1>
+    <div class="col-12 col-md-6">
+        <nav>
+            <ul class="d-flex justify-content-around list-unstyled">
+                <li><a href=""> Pagína 1</a></li>
+                <li><a href=""> Pagína 2</a></li>
+            </ul>
+        </nav>    
+    </div>
+   </header>
+</section>
+
+   <main>
+       <h2>Ingresa tu usuario, edad, nombre y apellido</h2>
+       <p>Ingresando dichos datos en un formulario, se mostrarán tanto en un div como un saludo, y
+           en una tabla los nuevos registrados</p>
+
+            <form action="">
+                <label for="name">Ingrese su nombre</label>
+                <input type="text" name="" id="name">
+
+
+                <label for="lastName">Ingrese su apellido</label>
+                <input type="text" name="" id="lastName">
+
+                <label for="eMail">Ingrese su correo electrónico</label>
+                <input type="text" name="" id="eMail">
+
+                <button type="button" id="miBtn">Enviar</button>
+            </form>
+
+
+           <div id="acaSaludo"></div>
+           <div id="acaTabla">
+               <table>
+                <thead>
+                    <th>Nombre</th>
+                    <th>Apellido</th>
+                    <th>Email</th>
+                </thead>   
+                   
+                <tbody id="tableBody">
+
+                </tbody>
+               </table>
+           </div>
+   </main>
+   <script src="codde.js"></script>
+</body>
+</html>
